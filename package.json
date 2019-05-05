@@ -1,0 +1,31 @@
+{
+  "name": "isprestapi",
+  "version": "1.0.0",
+  "description": "Hackerearth ISP rest api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js --exec babel-node --presets babel-preset-env"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "ayanb07",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "http-server": "^0.11.1",
+    "mongoose": "^5.5.5",
+    "swagger-ui": "^3.22.1",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.0"
+  }
+}

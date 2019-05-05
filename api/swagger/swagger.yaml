@@ -1,0 +1,24 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: ISP info API
+host: localhost:3000
+basepath: /
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /isp:
+    post:
+      summary: Add a isp information
+      description: Add an isp information with given params
+      parameters:
+        name:  isp
+        in: body
+        
+      responses:
+        200:
+          
